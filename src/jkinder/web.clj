@@ -9,7 +9,7 @@
 (defn splash []
   {:status 200
    :headers {"Content-Type" "text/plain"}
-   :body (pr-str ["Let there be kinder photos!"])})
+   :body (pr-str ["Let there be kinder photos!" :from 'Heroku])})
 
 (defroutes app
   (GET "/" []

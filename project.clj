@@ -1,5 +1,5 @@
 (defproject jkinder "1.0.0-SNAPSHOT"
-  :description "jkinder"
+  :description "Kinder Photos Managing"
   :url "http://jkinder.herokuapp.com"
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [compojure "1.1.8"]
